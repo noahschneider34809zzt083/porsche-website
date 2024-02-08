@@ -1,0 +1,55 @@
+.game{
+    width: 1000px;
+    height: 450px;
+    border: 1.5px solid transparent;
+    margin: auto;
+    margin-top: 200px;
+    background-image: url(pixelate-background_634779-89.avif);
+}
+#character{
+    margin-left: 50px;
+    width: 152px;
+    height: 53px;
+    background-color: #7cdbed;
+    background-image: url(noah-removebg-preview\ \(1\).png);
+    background-repeat: no-repeat;
+    top: 328px;
+    border-radius: 10px;
+    position: relative;
+}
+.animate{
+    animation: jump .6s linear;
+    height: 170px;
+}
+@keyframes jump{
+    0%{top: 257px;}
+    10%{top: 253px;}
+    20%{top: 236px;}
+    30%{top: 219px;}
+    40%{top: 202px;}
+    50%{top: 201px;}
+    60%{top: 202px;}
+    70%{top: 219px;}
+    80%{top: 236px;}
+    90%{top: 253px;}
+    100%{top: 357px;}
+}
+
+#block{
+    background-image: url(rrr.png);
+    border-radius:10px;
+    background-color: #7cdbed;
+    width: 50px;
+    height: 33px;
+    position: relative;
+    top: 296px;
+    left: 500px;
+    animation: block 1.5s infinite linear
+}
+@keyframes block{
+    0%{left: 1000px}
+    100%{left: 0px}
+}
+p{
+    text-align: center;
+}
